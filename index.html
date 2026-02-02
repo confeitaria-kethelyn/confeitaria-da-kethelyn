@@ -32,141 +32,137 @@
 
     .container {
       padding: 20px;
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
     }
 
-    .categoria {
-      margin-top: 40px;
-    }
-
-    .categoria h2 {
-      border-bottom: 2px solid #f7a1c4;
-      padding-bottom: 5px;
+    h2 {
       color: #c2185b;
-      text-align: left;
+      margin-top: 40px;
     }
 
     .produto {
       background: white;
-      border-radius: 10px;
-      padding: 15px;
-      margin: 15px 0;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      text-align: left;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     .produto h3 {
-      margin: 0 0 5px 0;
+      margin: 0 0 8px 0;
+      color: #c2185b;
     }
 
     .produto p {
-      margin: 5px 0;
-      font-weight: bold;
+      margin: 6px 0;
     }
 
-    .botao {
+    .preco {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .botao-whats {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background: #25d366;
+      margin-top: 12px;
+      padding: 14px 22px;
+      background: #d63b74;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
       font-weight: bold;
     }
 
-    .botao:hover {
-      background: #1ebe5d;
+    .botao-whats:hover {
+      background: #c2185b;
     }
 
     footer {
       margin-top: 50px;
-      padding: 20px;
+      padding: 25px 15px;
       background: #f7a1c4;
       color: white;
+    }
+
+    footer a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Confeitaria da Kethelyn</h1>
-  <p>Doces feitos com amor 💖</p>
-</header>
+  <header>
+    <h1>Confeitaria da Kethelyn</h1>
+    <p>Doces feitos com amor 💖</p>
+  </header>
 
-<div class="container">
+  <div class="container">
+    <p>🍓 Loja on-line da Confeitaria da Kethelyn 🍫</p>
+    <p>Em breve nossa loja completa estará aqui 💕</p>
 
-  <!-- ESPETINHOS -->
-  <div class="categoria">
-    <h2>🍓 Espetinhos</h2>
+    <a class="botao-whats"
+       href="https://wa.me/5511998591522"
+       target="_blank">
+       Pedir pelo WhatsApp
+    </a>
+
+    <h2>🍰 Catálogo</h2>
 
     <div class="produto">
-      <h3>Espetinho de Morango com Chocolate</h3>
-      <p>R$ 8,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
+      <h3>Espetinho de Morango 🍓</h3>
+      <p>Morango coberto com chocolate</p>
+      <p class="preco">R$ 8,00</p>
+      <a class="botao-whats"
+         href="https://wa.me/5511998591522?text=Quero%20Espetinho%20de%20Morango"
+         target="_blank">
+         Pedir no WhatsApp
       </a>
     </div>
 
     <div class="produto">
-      <h3>Espetinho de Uva com Chocolate</h3>
-      <p>R$ 7,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
+      <h3>Espetinho de Uva 🍇</h3>
+      <p>Uva verde coberta com chocolate</p>
+      <p class="preco">R$ 7,00</p>
+      <a class="botao-whats"
+         href="https://wa.me/5511998591522?text=Quero%20Espetinho%20de%20Uva"
+         target="_blank">
+         Pedir no WhatsApp
       </a>
     </div>
+
+    <div class="produto">
+      <h3>Copo da Felicidade 😍</h3>
+      <p>Camadas de creme, chocolate e frutas</p>
+      <p class="preco">R$ 20,00</p>
+      <a class="botao-whats"
+         href="https://wa.me/5511998591522?text=Quero%20Copo%20da%20Felicidade"
+         target="_blank">
+         Pedir no WhatsApp
+      </a>
+    </div>
+
+    <div class="produto">
+      <h3>Fondue de Morango 🍫🍓</h3>
+      <p>Morango com chocolate tipo fondue</p>
+      <p class="preco">R$ 29,00</p>
+      <a class="botao-whats"
+         href="https://wa.me/5511998591522?text=Quero%20Fondue%20de%20Morango"
+         target="_blank">
+         Pedir no WhatsApp
+      </a>
+    </div>
+
   </div>
 
-  <!-- COPOS DA FELICIDADE -->
-  <div class="categoria">
-    <h2>🍫 Copos da Felicidade</h2>
-
-    <div class="produto">
-      <h3>Morango + Brigadeiro</h3>
-      <p>R$ 20,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
-      </a>
-    </div>
-
-    <div class="produto">
-      <h3>Uva + Nutella</h3>
-      <p>R$ 20,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
-      </a>
-    </div>
-  </div>
-
-  <!-- FONDUE -->
-  <div class="categoria">
-    <h2>🍓 Fondue</h2>
-
-    <div class="produto">
-      <h3>Fondue de Morango</h3>
-      <p>R$ 29,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
-      </a>
-    </div>
-
-    <div class="produto">
-      <h3>Fondue Misto (Morango + Uva)</h3>
-      <p>R$ 32,00</p>
-      <a class="botao" href="https://wa.me/5511998591522" target="_blank">
-        Pedir esse
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<footer>
-  <p>Pedidos pelo WhatsApp 📱 (11) 99859-1522</p>
-  <p>Confeitaria da Kethelyn 💗</p>
-</footer>
+  <footer>
+    <p>Pedidos pelo WhatsApp 📲 <a href="https://wa.me/5511998591522">(11) 99859-1522</a></p>
+    <p>Confeitaria da Kethelyn 💕</p>
+  </footer>
 
 </body>
 </html>
